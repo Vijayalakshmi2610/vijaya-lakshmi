@@ -1,0 +1,64 @@
+AREA OF A RECTANGLE
+
+a=19
+b=5
+c=7
+s=(a+b+c)/2
+area=(s*(s-a)*(s-b)*(s-c))**0.5
+print(area)
+
+NESTED IF PROGRAM
+
+num=int(input("enter a number below 30"))
+if num>0 and num<10:
+    print ("range is 0-10")
+if num >10 and num<20:
+    print("range is 10-20")
+if num >=20 and num<30:
+    print("range is 20-30")
+
+3 number greater using nested if
+
+a=10
+b=2
+c=3
+if a>b:
+    if a>c:
+        print("a is greater")
+    else:
+        print("c is greater")
+elif b>c:
+       print("b is greater")
+else:
+       print("equal")
+   
+
+
+TCS QUESTON 
+    n=10
+m=int(input("enter the number of candies"))
+k=n-m
+if m<=5 and k>=5:
+    print("available candies",k)
+else:
+    print("invalid input")
+
+
+
+or 
+
+
+
+n=10
+m=int(input("input value"))
+k=n-m
+if m>=5 and k>=5:
+    print("number of candies sold",k)
+    print("available candies",k)
+elif m==0:
+    print("invalid input")
+    print("available candies",n)
+else:
+    print("invalid input")
+    print("available candies",n)
+    

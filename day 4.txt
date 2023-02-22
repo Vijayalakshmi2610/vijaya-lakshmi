@@ -1,0 +1,167 @@
+*****ABCEDERIAN SERIES ******
+str1='ABCDEFG'
+str2='ate'
+for l in str1:
+    print((l+str2),end='  ')
+
+o/p
+
+Aate Bate Cate Date Eate Fate Gate
+**************************************************************************
+
+***program to evaluate the list of cube till the rangee of 10
+
+cubes=[]
+for i in range (11):
+    cubes.append(i**3)
+    print (cubes)
+
+o/p
+
+[0,1,8,27,64,125,216,343]
+.............................
+..................................
+************************************************************************
+
+****program to find sum and mean for the series 0-10
+
+
+list=[1,2,3,4,5,6,7,8,9,10]
+sum=0
+for i in list :
+    sum+=i
+    print (sum)
+    print(sum/len(list))n # this len is used to find 1-100 numbers also
+
+OPERATIONS OF LISTS
+
+len
+repition
+in
+not in
+max
+min
+
+************************************************************
+max number program
+
+a=[22,34,5757,6437]   #o/p 6437
+print(max(a))
+
+**** **********************************************************
+min number
+a=[22,34,5757,6437]
+print(min(a))       # 22
+
+print(sum(a)) to add number in a list
+
+***************************************************************
+a=[267,3,5757,6437,4]
+print(sorted(a))
+
+o/p 
+
+3,4,267,5757... arranges in an order
+
+
+******************************************************************
+a=[332,1334,4,4,4,323,24232,422]
+a.append(10)
+print(a)
+
+o/p
+[332,1334,4,4,4,323,24232,422,10]
+
+*******************************************************************
+a=[332,1334,4,4,4,323,24232,422]
+print(a.count(4))
+
+o/p 4# how many times 4 is there in the list the priogram is used to count
+
+
+*******************************************************************
+a=[6,3,7,0,3,7,6,0]
+a.insert(3,100) # 3 is index  shown and add 100 after 3 indeex page mean 7
+print (a)
+
+o/p
+[6,3,7,100,0,3,7,6,0]
+
+
+********************************************************************
+def hanoi (n,a,b,c):
+    if n>0:
+         hanoi(n-1,a,c,b)
+         if a:
+              c.append(a.pop())
+         hanoi(n-1,b,a,c)
+a=[1,2,3,4]
+b=[]
+c=[]
+hanoi(len(a),a,b,c)
+print(a,b,c)   
+
+o/p [] [] [1,2,3,4]
+
++********************************************************************
+num=[2379489,83523953852,38532532,8535,3,83255,3,58355325,35]
+print(sum(num))
+
+
+************************************************************
+num=[1,2,3,4,5,6,7,8,9,10]
+num.reverse()
+print(num)
+***********************************************************
+num.sorted() or sort() # arrege in order
+*************************************************************
+num=['1,A,4,b,6,B,9,Def']
+num.sort()
+print(num)
+***************************************************************
+to cobine a list of cubes for a given number
+
+cubes=[i**3 for i in range(11)]
+print(cubes)
+*************************************
+list =[1,2,3,4]
+i=0
+for j in list:
+     print('index',i,'=',j)
+     i+=1
+
+o/p
+
+index 0=1
+index 1=2
+index 2=3
+index 3=4
+****************************************************************
+     WASHING MACHINE WORD PROBLEM
+
+n=int(input('enter the num'))
+if n==0:
+    print('estimated time :0 minutes')
+elif n in range(1,2001):
+    print('estimated time :25 minutes')
+elif n in range(2001,4001):
+    print('estimated time :35 minutes')
+elif n in range(4001,7001):
+    print('estimated time :45 minutes')
+    
+    o/p
+
+enter num:2000
+estimated time:25 minutes
+*******************************************************************
+**** find 15 th term**********************
+n=int(input('enter the number'))
+l1=[]
+for i in range(0,n+1):
+    a=6*i
+    b=7*i 
+    l1.append(a)
+    l1.append(b)
+print(l1[n-1])
+*********************************************************************
+

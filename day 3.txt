@@ -1,0 +1,117 @@
+ *******strings***********
+txt='the nun'
+print(txt.upper())
+
+to get the the nun into capital THE NUN
+
+lower() CAPITAL--capital
+
+
+STRING
+
+txt ='lakshmi'
+index=0
+for i in txt:
+    print("message[",index,"]=",i)
+    index+=1
+
+txt='6'
+print(txt.zfill(4))
+
+it place the 6 in 4 position
+ o/p is 0006 and we enter 5 in place of 00006
+
+armstrong or not
+
+n=int(input("enter a number"))
+s=0
+temp=n          # first n anadhi variable ga save cheyali  371=3*3*3*7*7*7*1*1*1=
+while n!=0:                                                   =371 is known armstrong
+    r=n%10
+    s=s+(r*r*r)
+    n=n//10
+print(s)
+if (s==temp):
+    print("arm strong")
+else:
+    print("not arm strong")
+
+
+txt='the nun'
+print(max(txt))  o/p u word pronounciation whicgh word sound most
+print(txt replace('','')  to relace any letter
+
+
+txt='my name is lakshmi'
+print(list(enumerate(txt))) # index value is determined using spaces
+
+txt='jamesbond0007,      
+print(txt.isalpha())
+           is digit
+            is upper ,is lower  # boolean experssion in strings
+
+
+print(len (text) length of thhe text
+
+txt = 'vijayaa'
+print(txt.ljust(10,'*'))   o/p vijayaa***
+           rjust                ****vijayaa
+            center            ****** vijayaa******
+
+
+
+print(txt[::-1]) rever avvutayai
+
+txt='india  is my country'
+print(txt[::2 ]) 
+ o/p
+ida sm onr 
+
+
+TO FIND AURDINO OF KEYPAD LETTERS
+
+ch='any buuton in keypad you can check'
+print(ord(ch))
+
+
+TO FIND WHICH ALPHABET OR SYMBOL ALLOCATED TO GIVEN NJUMBER
+print(chr(38))
+
+txt1='india is great'
+txt2='is'
+if txt2 in txt1:
+    print("found")
+else:
+    print("not found")
+
+txt='india is great'
+i=0
+while i<len(txt):
+    letter=txt[i]
+    print(letter,end='')
+    i+=1
+o/p india is great
+
+
+n=int(input ())
+for i in range(1,n+1):
+    ch='A'
+    print()
+    for j in range(1,i+1):
+        print(ch,end='')
+
+o/p AAAAA
+    AAAAAAA
+    AAAAAAAAAA
+ 
+n=int(input ())
+for i in range(1,n+1):
+    ch='A'
+    print()
+    for j in range(1,i+1):
+        print(ch,end='')
+        ch=chr(ord(ch)+1)
+o/p  AB....F
+     A......H
+             ..I
+              ....J

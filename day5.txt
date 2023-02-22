@@ -1,0 +1,120 @@
+Any s we can convert into a int,str,list
+
+a=(3,4,5,6,7,8)
+n=str(a)
+print(n)
+********************************************************
+dictionarty
+
+student={
+    "name":" student 1",
+    "subject ":14,
+    "subject": 10,
+}
+print(student)
+
+
+2*****
+student={
+    "name":" student 1",
+    "subject":14,
+    "age": 10,
+}
+print(student['name'])
+print(student['subject'])
+print(student['age'])
+
+*****************************
+n=5
+5 16 8 4 2 1
+
+n=7
+7 22 11 34 17  52 26 13  40 20 10 5 16 8 4 2 1
+
+n=6 
+6 3 10 5 16  8  4 2 1
+
+logic beyond this is odd *3+1
+                     even  /2
+************************************************
+class car:
+    name="hyndai"
+    number=8888
+    model=15
+    def print_details(self):
+        print(f"name:{self.name}and number:{self.number}and model:{self.model}")
+ob1=car()
+ob1.print_details()
+
+
+o/p
+name:hyndai number 8888 model 15
+*****************************************************
+
+o/p
+student 1
+14
+10
+
+
+student={
+    "name":" student 1",
+    "subject":14,
+    "age": 10,
+}
+print(student.keys())
+print(student.values())
+print(student.items())
+
+
+CHANGINHG AGE INT THE DICTONIORY
+student={
+    "name":" student 1",
+    "subject":14,
+    "age": 10,
+}
+student['age']=19
+print(student.keys())
+print(student.values())
+print(student.items())
+
+
+********************************************************
+own code for dict
+
+
+student={
+    "username":'vijaya123',
+    "password": 'luckys',
+}
+n=input('enter the password')
+print(n)
+if 'password '=='luckys':
+    print("welcome")
+else:
+    print("password is incorrect")
+************************************************************************
+FUNCTION
+
+def fun_name(num1,num2):
+    print("ans:",num1*num2)
+fun_name(10,20)
+
+O/P ANs:200
+********************************************************************
+def fun_name(num1,num2,num3):
+    if num3=='*':
+        print('mul:',num1*num2)
+    if num3=='+':
+        print('add:',num1+num2)
+    if num3=='-':
+        print('sub:',num1-num2)
+    if num3=='/':
+        print('div:',num1/num2)
+fun_name(10,20,"/")----here we can give *,+,-
+
+o/p
+/-o.5
+*200
++30
+*******************************************************************
