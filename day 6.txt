@@ -1,0 +1,13 @@
+class nagalakshmi():
+	def drawing(self):
+		print("nagalakshmi draws well")
+class lakshmi():
+    def craft(self):
+        print("lakshmi crafts well")
+class me(nagalakshmi, lakshmi):
+	def both(self):
+		print("i like craft and drawing")
+me= me()
+me.drawing()
+me.craft()
+me.both()		
